@@ -14,23 +14,32 @@ align-items: center;
 }
 .main-div{   
 background-color: rgb(255, 255, 255);
-width: 300px;
-display: grid;
-justify-items: center;
+width: 310px;
 border-radius: 2ch;
 
 }
+.content{
+
+border-radius:3ch;padding: 15px;}
+
 img{
 max-width: 100%;
-padding:5%;
-border-radius:3ch;}
+border-radius:10px;}
 
-.texts{display: grid;
+.texts{
+display: flex;
+row-gap:20px;  
 text-align:center;
-width: 100%;
-padding: 10%;
+flex-direction: column;
+padding: 7%;
+height: 175px;
 
 }
-h3{color:hsl(218, 44%, 22%);font-weight: 700;}
-p{color: hsl(216, 15%, 48%);  
-font-size: 15px;}
+.main-p{color:hsl(218, 44%, 22%);
+font-size: 21px;
+font-weight: 700;
+;}
+
+.secundary-p{color: hsl(216, 15%, 48%);  
+font-size: 15px;font-weight: 400;
+}
